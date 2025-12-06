@@ -16,6 +16,62 @@
 
     <h2 id="result"></h2>
 
+    <style>
+        body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1e90ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    background: #ddd;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: 0.2s;
+}
+
+.tab-btn:hover {
+    background: #ccc;
+}
+
+.tab-btn.active {
+    background: #1e90ff;
+    color: white;
+}
+
+img {
+    border-radius: 6px;
+}
+       
+    </style>
+
     <script>
         function calculate() {
             let a = Number(document.getElementById("a").value);
